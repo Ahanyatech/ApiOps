@@ -3,7 +3,7 @@ info:
   title: Echo API
   version: '1.0'
 servers:
-  - url: https://adventhealth-apim.azure-api.net/echo
+  - url: https://apiservicekfxwdnr7bsm2k-apim.azure-api.net/echo
 paths:
   /resource:
     get:
