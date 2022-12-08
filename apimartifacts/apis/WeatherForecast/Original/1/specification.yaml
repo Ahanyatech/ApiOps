@@ -1,0 +1,28 @@
+openapi: 3.0.1
+info:
+  title: WeatherForecast
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://adventhealth-apim.azure-api.net/Weather
+paths:
+  /*:
+    get:
+      summary: weatherforecast_GET
+      operationId: 638e5746f840631cccb7731c
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

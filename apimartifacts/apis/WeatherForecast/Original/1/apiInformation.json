@@ -1,0 +1,19 @@
+{
+  "name": "weatherforecast",
+  "properties": {
+    "path": "Weather",
+    "displayName": "WeatherForecast",
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "protocols": [
+      "https"
+    ],
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WebApp_webapplication120221205141311",
+  "properties": {
+    "description": "WebApplication120221205141311",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/97245d0e-474f-4808-a081-128a5eb110d9/resourceGroups/rg-poc-apim/providers/Microsoft.Web/sites/WebApplication120221205141311",
+    "url": "https://webapplication120221205141311.azurewebsites.net"
+  }
+}
