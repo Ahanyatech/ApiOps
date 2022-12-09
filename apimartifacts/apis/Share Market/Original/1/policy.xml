@@ -1,0 +1,23 @@
+<policies>
+	<inbound>
+		<base />
+		<set-backend-service base-url="https://webapplication120221205141311.azurewebsites.net/ShareMarket/ShareMarket" />
+		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Access token is missing or invalid." require-scheme="Bearer">
+			<openid-config url="https://login.microsoftonline.com/a8a96f3d-5e96-4484-bef8-b01872d22da5/.well-known/openid-configuration" />
+			<required-claims>
+				<claim name="appid" match="any">
+					<value>5114d76d-4dc3-4def-bceb-0ff7077d4918</value>
+				</claim>
+			</required-claims>
+		</validate-jwt>
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

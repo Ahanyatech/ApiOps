@@ -1,0 +1,58 @@
+openapi: 3.0.1
+info:
+  title: Weather Forecast
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apiservicekfxwdnr7bsm2k.azure-api.net/WeatherForecast
+paths:
+  /*:
+    put:
+      summary: WeatherForecast_PUT
+      operationId: 63925731fe7d2985d3d3dece
+      responses:
+        '200':
+          description: 
+    get:
+      summary: WeatherForecast_GET
+      operationId: 639257317d8d7fc315f50970
+      responses:
+        '200':
+          description: 
+    head:
+      summary: WeatherForecast_HEAD
+      operationId: 63925731ca8f3bef2e9ee12c
+      responses:
+        '200':
+          description: 
+    options:
+      summary: WeatherForecast_OPTIONS
+      operationId: 63925731924dbc7ecd86f729
+      responses:
+        '200':
+          description: 
+    delete:
+      summary: WeatherForecast_DELETE
+      operationId: 639257313a8ae57d29087c25
+      responses:
+        '200':
+          description: 
+    trace:
+      summary: WeatherForecast_TRACE
+      operationId: 639257318dd821f6e2ec9ac6
+      responses:
+        '200':
+          description: 
+    patch:
+      summary: WeatherForecast_PATCH
+      operationId: 63925731963fa2a1fe143704
+      responses:
+        '200':
+          description: 
+    post:
+      summary: WeatherForecast_POST
+      operationId: 63925731d217dd788f5ccee6
+      responses:
+        '200':
+          description: 
+components: { }

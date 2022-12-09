@@ -1,0 +1,20 @@
+{
+  "name": "ShareMarket",
+  "properties": {
+    "path": "ShareMarket",
+    "displayName": "Share Market",
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://apiservicekfxwdnr7bsm2k.azure-api.net/ShareMarket",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "premium",
+  "properties": {
+    "displayName": "Premium",
+    "approvalRequired": true,
+    "description": "Needs Subscription",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}
