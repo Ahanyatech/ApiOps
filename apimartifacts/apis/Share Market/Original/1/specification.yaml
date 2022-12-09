@@ -1,0 +1,34 @@
+openapi: 3.0.1
+info:
+  title: Share Market
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apiservicekfxwdnr7bsm2k.azure-api.net/ShareMarket
+paths:
+  /:
+    get:
+      summary: ShareMarket
+      description: Get Share Price for a company.
+      operationId: 63925b997ea40219eb970209
+      parameters:
+        - name: CompanyName
+          in: query
+          schema:
+            type: ''
+      responses:
+        '200':
+          description: 'null'
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
