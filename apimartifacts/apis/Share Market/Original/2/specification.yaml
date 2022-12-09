@@ -23,7 +23,7 @@ paths:
             application/json:
               example:
                 Price: $250
-                52 Week Low: $209
+                52 Week Low: $210
 components:
   securitySchemes:
     apiKeyHeader:
