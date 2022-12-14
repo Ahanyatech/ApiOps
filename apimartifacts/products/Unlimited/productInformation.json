@@ -2,7 +2,7 @@
   "name": "unlimited",
   "properties": {
     "displayName": "Unlimited",
-    "description": "Unlimited Access",
+    "description": "Unlimited Access in Test Environment",
     "state": "published",
     "subscriptionRequired": false
   }
