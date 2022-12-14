@@ -1,5 +1,5 @@
 {
-  "name": "WeatherForecast",
+  "name": "weatherforecast",
   "properties": {
     "path": "WeatherForecast",
     "displayName": "Weather Forecast",
@@ -10,6 +10,7 @@
     "protocols": [
       "https"
     ],
+    "serviceUrl": "https://apiservicekfxwdnr7bsm2k.azure-api.net/WeatherForecast",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
